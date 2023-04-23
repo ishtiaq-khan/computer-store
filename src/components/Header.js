@@ -12,7 +12,7 @@ const Header = () => {
             </div>
             <div className="col-6">
               <p className="text-end text-white mb-0">
-                Phone: <a className="text-white" herf="tel 929 600 9000">929-600-9000</a>
+                Khan, Luna, Mazumder
               </p>
             </div>
           </div>

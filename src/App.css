@@ -12,7 +12,7 @@
   --color-4bdb2e:#4bdb2e; 
   --color-3b4149:#3b4149;
   --color-febd69: #febd69;
-
+  --color-f5f5f7: #f5f5f7;
 }
 
 body {
@@ -35,6 +35,9 @@ a {
 }
 .gap-30{
   gap:30px;
+}
+.gap-60{
+  gap:60px;
 }
 /*header part ctr+shift+A */
 .header-top-strip{
@@ -92,3 +95,27 @@ a {
   margin-right: 5px;
 }
 
+
+
+/*home page */
+/* home wrapper begin */
+.home-wrapper-1 { 
+  background-color: var(--color-#f5f5f7);
+
+}
+
+/* home wrapper end */
+
+/* categories */
+.categories{
+ background-color: aliceblue; 
+ box-shadow:  0 0 10px #0000001a;
+ padding:15px;
+}
+
+.categories > div{
+  width: 200%;
+}  
+/*categories end */
+
+/*home page end */
