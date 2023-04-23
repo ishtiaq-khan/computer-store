@@ -12,7 +12,7 @@ const Header = () => {
             </div>
             <div className="col-6">
               <p className="text-end text-white mb-0">
-                Khan, Luna, Mazumder
+                Khan, Luna, Mazumders
               </p>
             </div>
           </div>
