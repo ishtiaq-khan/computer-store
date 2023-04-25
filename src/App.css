@@ -133,11 +133,28 @@ a {
   flex-wrap: wrap;}
 
 .categories > div {
-  width: 25%; /* added fixed width */
+  width: 24%; /* added fixed width */
   margin-bottom: 20px; /* added margin to create space between rows */
+
+}
+.categories>div:nth-child(1),
+.categories>div:nth-child(2),
+.categories>div:nth-child(3),
+.categories>div:nth-child(4){
+  border-bottom: 1px solid #d0d7e3;
 }
 
+.categories>div:nth-child(1),
+.categories>div:nth-child(2),
+.categories>div:nth-child(3){
+  border-right: 1px solid #d0d7e3;
+}
 
+.categories>div:nth-child(5),
+.categories>div:nth-child(6),
+.categories>div:nth-child(7){
+  border-right: 1px solid #d0d7e3;
+}
 
 /*categories end */
 
