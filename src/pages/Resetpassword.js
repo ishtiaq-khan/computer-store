@@ -3,16 +3,16 @@ import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
 import {Link} from "react-router-dom"
 
-const Restpassword = () => {
+const Resetpassword = () => {
   return <>
-   <Meta title ={ "Rest Password" }/>
-    <BreadCrumb title = "Rest Password"/>
+   <Meta title ={ "Reset Password" }/>
+    <BreadCrumb title = "Reset Password"/>
 
     <div className="login-wrapper py-5 home-wrapper-2 text-center">
       <div className="row">
         <div className="col-12">
           <div className="auth-card">
-          <h3 style={{ color: 'white', fontSize: '24px' }}>Rest Password</h3>
+          <h3 style={{ color: 'white', fontSize: '24px' }}>Reset Password</h3>
 
 
             <form action="" className='d-flex flex-column gap-15'>
@@ -50,4 +50,4 @@ const Restpassword = () => {
     </>
 }
 
-export default Restpassword
+export default Resetpassword

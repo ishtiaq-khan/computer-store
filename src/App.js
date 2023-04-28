@@ -9,7 +9,7 @@ import Pcgaming from './pages/Pcgaming';
 import Login from './pages/Login';
 import { Forgotpassword } from './pages/Forgotpassword';
 import  Signup  from './pages/Signup';
-import Restpassword from './pages/Restpassword';
+import Resetpassword from './pages/Resetpassword';
  
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
       <Route path="Login"    element={< Login/>}/>
       <Route path="forgot-password" element={< Forgotpassword/>}/>
       <Route path="Signup" element={<Signup/>}/>
-      <Route path="Restpassword" element={<Restpassword/>}/>
+      <Route path="Resetpassword" element={<Resetpassword/>}/>
       </Route>
    </Routes>
     </BrowserRouter>
