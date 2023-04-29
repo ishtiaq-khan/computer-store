@@ -12,7 +12,7 @@ const Header = () => {
             </div>
             <div className="col-6">
               <p className="text-end text-white mb-0">
-                Khan, Luna, Mazumders
+                Khan, Luna, Mazumder
               </p>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Header = () => {
               <div className="header-upper-links d-flex align-items-center justify-content-between">
 
                 <div>
-                  <Link className='d-flex align-items-center gap-10 text-white header-link'>
+                  <Link to="/build" className='d-flex align-items-center gap-10 text-white header-link'>
                     <img src="image/compare.svg" alt="compare" />
                     <p className='mb-0'>
                       Build <br /> products
@@ -52,7 +52,7 @@ const Header = () => {
                 </div>
 
                 <div>
-                  <Link className='d-flex align-items-center gap-10 text-white header-link'>
+                  <Link to="/wishlist" className='d-flex align-items-center gap-10 text-white header-link'>
                     <img src="image/wishlist.svg" alt="wishlist" />
                     <p className='mb-0'>
                       Favourite <br /> wishlist </p>
@@ -67,7 +67,7 @@ const Header = () => {
                 </div>
 
                 <div>
-                  <Link className='d-flex align-items-center gap-15 text-white  header-link'>
+                  <Link to="/cart" className='d-flex align-items-center gap-15 text-white  header-link'>
                     <img src="image/cart.svg" alt="cart" />
                     <div className='d-flex flex-column gap-10'>
                       <span className='badge bg-white text-dark'>0</span>

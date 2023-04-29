@@ -10,7 +10,10 @@ import Login from './pages/Login';
 import { Forgotpassword } from './pages/Forgotpassword';
 import  Signup  from './pages/Signup';
 import Resetpassword from './pages/Resetpassword';
- 
+import Build from './pages/Build';
+import Cart from './pages/Cart'; 
+import Wishlist from './pages/Wishlist';
+
 function App() {
   return (
   <>
@@ -25,6 +28,9 @@ function App() {
       <Route path="forgot-password" element={< Forgotpassword/>}/>
       <Route path="Signup" element={<Signup/>}/>
       <Route path="Resetpassword" element={<Resetpassword/>}/>
+      <Route path="Build" element={<Build/>}/>
+      <Route path="Cart" element={<Cart/>}/>
+      <Route path="Wishlist" element={<Wishlist/>}/>
       </Route>
    </Routes>
     </BrowserRouter>
